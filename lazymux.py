@@ -307,31 +307,31 @@ def main():
 			restart_program()
 	
 	elif lazymux == "5" or lazymux == "05":
-		print "\n    [01] sqlmap"
-		print "    [02] Webdav"
-		print "    [03] xGans"
-		print "    [04] Webdav Mass Exploit"
-		print "    [05] WPSploit"
-		print "    [06] sqldump"
-		print "    [07] Websploit"
-		print "    [08] sqlmate"
-		print "    [09] sqlokmed"
-		print "    [10] zones"
-		print "    [11] Xshell"
-		print "    [12] SH33LL"
-		print "    [13] XAttacker"
-		print "    [14] XSStrike"
-		print "    [15] Breacher"
-		print "    [16] OWScan"
-		print "    [17] ko-dork"
-		print "    [18] ApSca"
-		print "    [19] amox"
-		print "    [20] FaDe"
-		print "    [21] AUXILE"
-		print "    [22] HPB"
-		print "    [23] inther\n"
-		print "    [00] Back to main menu\n"
-		webhack = raw_input("lzmx > ")
+		print ("\n    [01] sqlmap")
+		print ("    [02] Webdav")
+		print ("    [03] xGans")
+		print ("    [04] Webdav Mass Exploit")
+		print ("    [05] WPSploit")
+		print ("    [06] sqldump")
+		print ("    [07] Websploit")
+		print ("    [08] sqlmate")
+		print ("    [09] sqlokmed")
+		print ("    [10] zones")
+		print ("    [11] Xshell")
+		print ("    [12] SH33LL")
+		print ("    [13] XAttacker")
+		print ("    [14] XSStrike")
+		print ("    [15] Breacher")
+		print ("    [16] OWScan")
+		print ("    [17] ko-dork")
+		print ("    [18] ApSca")
+		print ("    [19] amox")
+		print ("    [20] FaDe")
+		print ("    [21] AUXILE")
+		print ("    [22] HPB")
+		print ("    [23] inther\n")
+		print ("    [00] Back to main menu\n")
+		webhack = input("lzmx > ")
 		
 		if webhack == "01" or webhack == "1":
 			sqlmap()
@@ -386,21 +386,21 @@ def main():
 			timeout(2)
 			restart_program()
 	elif lazymux == "6" or lazymux == "06":
-		print "\n    [01] Metasploit"
-		print "    [02] commix"
-		print "    [03] sqlmap"
-		print "    [04] Brutal"
-		print "    [05] A-Rat"
-		print "    [06] WPSploit"  
-		print "    [07] Websploit"
-		print "    [08] Routersploit"
-		print "    [09] BlackBox"
-		print "    [10] XAttacker"
-		print "    [11] TXTool"
-		print "    [12] MSF-Pg"
-		print "    [13] Binary Exploitation\n"
-		print "    [00] Back to main menu\n"
-		exploitool = raw_input("lzmx > ")
+		print ("\n    [01] Metasploit")
+		print ("    [02] commix")
+		print ("    [03] sqlmap")
+		print ("    [04] Brutal")
+		print ("    [05] A-Rat")
+		print ("    [06] WPSploit")  
+		print ("    [07] Websploit")
+		print ("    [08] Routersploit")
+		print ("    [09] BlackBox")
+		print ("    [10] XAttacker")
+		print ("    [11] TXTool")
+		print ("    [12] MSF-Pg")
+		print ("    [13] Binary Exploitation\n")
+		print ("    [00] Back to main menu\n")
+		exploitool = input("lzmx > ")
 		
 		if exploitool == "01" or exploitool == "1":
 			metasploit()
@@ -435,15 +435,15 @@ def main():
 			timeout(2)
 			restart_program()
 	elif lazymux == "7" or lazymux == "07":
-		print "\n    [01] KnockMail"
-		print "    [02] Spammer-Grab"
-		print "    [03] Hac"
-		print "    [04] Spammer-Email"
-		print "    [05] SocialFish"
-		print "    [06] santet-online"
-		print "    [07] SpazSMS\n"
-		print "    [00] Back to main menu\n"
-		sspoof = raw_input("lzmx > ")
+		print ("\n    [01] KnockMail")
+		print ("    [02] Spammer-Grab")
+		print ("    [03] Hac")
+		print ("    [04] Spammer-Email")
+		print ("    [05] SocialFish")
+		print ("    [06] santet-online")
+		print ("    [07] SpazSMS\n")
+		print ("    [00] Back to main menu\n")
+		sspoof = input("lzmx > ")
 		
 		if sspoof == "01" or sspoof == "1":
 			knockmail()
@@ -467,23 +467,23 @@ def main():
 			restart_program()
 	
 	elif lazymux == "8" or lazymux == "08":
-		print "\n    [01] SpiderBot"
-		print "    [02] Ngrok"
-		print "    [03] Sudo"
-		print "    [04] Ubuntu"
-		print "    [05] Fedora"
-		print "    [06] Kali Nethunter"
-		print "    [07] VCRT"
-		print "    [08] E-Code"
-		print "    [09] Termux-Styling"
-		print "    [10] PassGen"
-		print "    [11] xl-py"
-		print "    [12] BeanShell"
-		print "    [13] WebConn"
-		print "    [14] TouchUrl"
-		print "    [15] Textr\n"
-		print "    [00] Back to main menu\n"
-		moretool = raw_input("lzmx > ")
+		print ("\n    [01] SpiderBot")
+		print ("    [02] Ngrok")
+		print ("    [03] Sudo")
+		print ("    [04] Ubuntu")
+		print ("    [05] Fedora")
+		print ("    [06] Kali Nethunter")
+		print ("    [07] VCRT")
+		print ("    [08] E-Code")
+		print ("    [09] Termux-Styling")
+		print ("    [10] PassGen")
+		print ("    [11] xl-py")
+		print ("    [12] BeanShell")
+		print ("    [13] WebConn")
+		print ("    [14] TouchUrl")
+		print ("    [15] Textr\n")
+		print ("    [00] Back to main menu\n")
+		moretool = input("lzmx > ")
 		
 		if moretool == "01" or moretool == "1":
 			spiderbot()

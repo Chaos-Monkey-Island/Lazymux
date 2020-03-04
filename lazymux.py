@@ -1,6 +1,8 @@
+## ---------------------------
 ## lazymux.py - Lazymux v3.0
 # -*- coding: utf-8 -*-
-##
+## ---------------------------
+
 import os
 import sys
 from time import sleep as timeout
@@ -110,7 +112,7 @@ def main():
 		elif infogathering == "00" or infogathering == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	
@@ -190,7 +192,7 @@ def main():
 		elif vulnscan == "00" or vulnscan == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	
@@ -234,7 +236,7 @@ def main():
 		elif stresstest == "00" or stresstest == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	
@@ -302,7 +304,7 @@ def main():
 		elif passtak == "00" or passtak == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	
@@ -382,7 +384,7 @@ def main():
 		elif webhack == "00" or webhack == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	elif lazymux == "6" or lazymux == "06":
@@ -431,7 +433,7 @@ def main():
 		elif exploitool == "00" or exploitool == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	elif lazymux == "7" or lazymux == "07":
@@ -462,7 +464,7 @@ def main():
 		elif sspoof == "00" or sspoof == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	
@@ -518,7 +520,7 @@ def main():
 		elif moretool == "00" or moretool == "0":
 			restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+			print ("\nERROR: Wrong Input")
 			timeout(2)
 			restart_program()
 	
@@ -542,7 +544,7 @@ def main():
 		sys.exit()
 	
 	else:
-		print "\nERROR: Wrong Input"
+		print ("\nERROR: Wrong Input")
 		timeout(2)
 		restart_program()
 

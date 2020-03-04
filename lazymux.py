@@ -8,54 +8,54 @@ from core.lzmcore import *
 
 def main():
 	banner()
-	print "   [01] Information Gathering"
-	print "   [02] Vulnerability Scanner"
-	print "   [03] Stress Testing"
-	print "   [04] Password Attacks"
-	print "   [05] Web Hacking"
-	print "   [06] Exploitation Tools"
-	print "   [07] Sniffing & Spoofing"
-	print "   [08] Other\n"
-	print "   ------------------------------------------\n"
-	print "   [09] Get All Information Gathering Modules Once"
-	print "   [10] Get All Vulnerability Scanner Modules Once"
-	print "   [11] Get All Stress Testing Modules Once"
-	print "   [12] Get All Password Attacks Modules Once"
-	print "   [13] Get All Web Hacking Modules Once"
-	print "   [14] Get All Exploitation Tools Modules Once"
-	print "   [15] Get All Sniffing & Spoofing Modules Once"
-	print "   [16] Get All Other Modules Once\n"
-	print "   [17] Exit the Lazymux\n"
-	lazymux = raw_input("lzmx > ")
+	print ("   [01] Information Gathering")
+	print ("   [02] Vulnerability Scanner")
+	print ("   [03] Stress Testing")
+	print ("   [04] Password Attacks")
+	print ("   [05] Web Hacking")
+	print ("   [06] Exploitation Tools")
+	print ("   [07] Sniffing & Spoofing")
+	print ("   [08] Other\n")
+	print ("   ------------------------------------------\n")
+	print ("   [09] Get All Information Gathering Modules Once")
+	print ("   [10] Get All Vulnerability Scanner Modules Once")
+	print ("   [11] Get All Stress Testing Modules Once")
+	print ("   [12] Get All Password Attacks Modules Once")
+	print ("   [13] Get All Web Hacking Modules Once")
+	print ("   [14] Get All Exploitation Tools Modules Once")
+	print ("   [15] Get All Sniffing & Spoofing Modules Once")
+	print ("   [16] Get All Other Modules Once\n")
+	print ("   [17] Exit the Lazymux\n")
+	lazymux = input("lzmx > ")
 	
 	if lazymux == "1" or lazymux == "01":
-		print "\n    [01] Nmap"
-		print "    [02] Red Hawk"
-		print "    [03] D-Tect"
-		print "    [04] sqlmap"
-		print "    [05] Infoga"
-		print "    [06] ReconDog"
-		print "    [07] AndroZenmap"
-		print "    [08] sqlmate"
-		print "    [09] AstraNmap"
-		print "    [10] WTF"
-		print "    [11] Easymap"
-		print "    [12] BlackBox"
-		print "    [13] XD3v"
-		print "    [14] Crips"
-		print "    [15] SIR"
-		print "    [16] EvilURL"
-		print "    [17] Striker"
-		print "    [18] Xshell"
-		print "    [19] OWScan"
-		print "    [20] OSIF"
-		print "    [21] Devploit"
-		print "    [22] Namechk"
-		print "    [23] AUXILE"
-		print "    [24] inther"
-		print "    [25] GINF\n"
-		print "    [00] Back to main menu\n"
-		infogathering = raw_input("lzmx > ")
+		print ("\n    [01] Nmap")
+		print ("    [02] Red Hawk")
+		print ("    [03] D-Tect")
+		print ("    [04] sqlmap")
+		print ("    [05] Infoga")
+		print ("    [06] ReconDog")
+		print ("    [07] AndroZenmap")
+		print ("    [08] sqlmate")
+		print ("    [09] AstraNmap")
+		print ("    [10] WTF")
+		print ("    [11] Easymap")
+		print ("    [12] BlackBox")
+		print ("    [13] XD3v")
+		print ("    [14] Crips")
+		print ("    [15] SIR")
+		print ("    [16] EvilURL")
+		print ("    [17] Striker")
+		print ("    [18] Xshell")
+		print ("    [19] OWScan")
+		print ("    [20] OSIF")
+		print ("    [21] Devploit")
+		print ("    [22] Namechk")
+		print ("    [23] AUXILE")
+		print ("    [24] inther")
+		print ("    [25] GINF\n")
+		print ("    [00] Back to main menu\n")
+		infogathering = input("lzmx > ")
 		
 		if infogathering == "01" or infogathering == "1":
 			nmap()
@@ -115,31 +115,31 @@ def main():
 			restart_program()
 	
 	elif lazymux == "2" or lazymux == "02":
-		print "\n    [01] Nmap"
-		print "    [02] AndroZenmap"
-		print "    [03] AstraNmap"
-		print "    [04] Easymap"
-		print "    [05] Red Hawk"
-		print "    [06] D-Tect"
-		print "    [07] Damn Small SQLi Scanner"
-		print "    [08] SQLiv"
-		print "    [09] sqlmap"
-		print "    [10] sqlscan"
-		print "    [11] Wordpresscan"
-		print "    [12] WPScan"
-		print "    [13] sqlmate"
-		print "    [14] wordpresscan"
-		print "    [15] WTF"
-		print "    [16] Rang3r"
-		print "    [17] Striker"
-		print "    [18] Routersploit"
-		print "    [19] Xshell"
-		print "    [20] SH33LL"
-		print "    [21] BlackBox"
-		print "    [22] XAttacker"
-		print "    [23] OWScan\n"
-		print "    [00] Back to main menu\n"
-		vulnscan = raw_input("lzmx > ")
+		print ("\n    [01] Nmap")
+		print ("    [02] AndroZenmap")
+		print ("    [03] AstraNmap")
+		print ("    [04] Easymap")
+		print ("    [05] Red Hawk")
+		print ("    [06] D-Tect")
+		print ("    [07] Damn Small SQLi Scanner")
+		print ("    [08] SQLiv")
+		print ("    [09] sqlmap")
+		print ("    [10] sqlscan")
+		print ("    [11] Wordpresscan")
+		print ("    [12] WPScan")
+		print ("    [13] sqlmate")
+		print ("    [14] wordpresscan")
+		print ("    [15] WTF")
+		print ("    [16] Rang3r")
+		print ("    [17] Striker")
+		print ("    [18] Routersploit")
+		print ("    [19] Xshell")
+		print ("    [20] SH33LL")
+		print ("    [21] BlackBox")
+		print ("    [22] XAttacker")
+		print ("    [23] OWScan\n")
+		print ("    [00] Back to main menu\n")
+		vulnscan = input("lzmx > ")
 		
 		if vulnscan == "01" or vulnscan == "1":
 			nmap()
@@ -195,19 +195,19 @@ def main():
 			restart_program()
 	
 	elif lazymux == "3" or lazymux == "03":
-		print "\n    [01] Torshammer"
-		print "    [02] Slowloris"
-		print "    [03] Fl00d & Fl00d2"
-		print "    [04] GoldenEye"
-		print "    [05] Xerxes"
-		print "    [06] Planetwork-DDOS"
-		print "    [07] Hydra"
-		print "    [08] Black Hydra"
-		print "    [09] Xshell"
-		print "    [10] santet-online\n"
-		print "    [11] DDosy"
-		print "    [00] Back to main menu\n"
-		stresstest = raw_input("lzmx > ")
+		print ("\n    [01] Torshammer")
+		print ("    [02] Slowloris")
+		print ("    [03] Fl00d & Fl00d2")
+		print ("    [04] GoldenEye")
+		print ("    [05] Xerxes")
+		print ("    [06] Planetwork-DDOS")
+		print ("    [07] Hydra")
+		print ("    [08] Black Hydra")
+		print ("    [09] Xshell")
+		print ("    [10] santet-online\n")
+		print ("    [11] DDosy")
+		print ("    [00] Back to main menu\n")
+		stresstest = input("lzmx > ")
 		
 		if stresstest == "01" or stresstest == "1":
 			torshammer()
@@ -239,27 +239,27 @@ def main():
 			restart_program()
 	
 	elif lazymux == "4" or lazymux == "04":
-		print "\n    [01] Hydra"
-		print "    [02] Facebook Brute Force"
-		print "    [03] Facebook Brute Force 2"
-		print "    [04] Facebook Brute Force 3"
-		print "    [05] Black Hydra"
-		print "    [06] Hash Buster"
-		print "    [07] 1337Hash"
-		print "    [08] Cupp"
-		print "    [09] InstaHack"
-		print "    [10] Indonesian Wordlist"
-		print "    [11] Xshell"
-		print "    [12] Social-Engineering"
-		print "    [13] BlackBox"
-		print "    [14] Hashzer"
-		print "    [15] Hasher"
-		print "    [16] Hash-Generator"
-		print "    [17] nk26"
-		print "    [18] Hasherdotid"
-		print "    [19] SocialBox\n"
-		print "    [00] Back to main menu\n"
-		passtak = raw_input("lzmx > ")
+		print ("\n    [01] Hydra")
+		print ("    [02] Facebook Brute Force")
+		print ("    [03] Facebook Brute Force 2")
+		print ("    [04] Facebook Brute Force 3")
+		print ("    [05] Black Hydra")
+		print ("    [06] Hash Buster")
+		print ("    [07] 1337Hash")
+		print ("    [08] Cupp")
+		print ("    [09] InstaHack")
+		print ("    [10] Indonesian Wordlist")
+		print ("    [11] Xshell")
+		print ("    [12] Social-Engineering")
+		print ("    [13] BlackBox")
+		print ("    [14] Hashzer")
+		print ("    [15] Hasher")
+		print ("    [16] Hash-Generator")
+		print ("    [17] nk26")
+		print ("    [18] Hasherdotid")
+		print ("    [19] SocialBox\n")
+		print ("    [00] Back to main menu\n")
+		passtak = input("lzmx > ")
 		
 		if passtak == "01" or passtak == "1":
 			hydra()
